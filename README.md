@@ -16,4 +16,4 @@ Labeled data of 303 patients and then will be used to make
 prediction for User INPUT DATA.
 
 User has to Input 11 Attributes into the model and then based on the learning model will
-output 1/0 if he/she has a diseae or not.
+output 1/0 if he/she has a disease or not.
