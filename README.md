@@ -18,3 +18,19 @@ prediction for User INPUT DATA.
 
 User has to Input 11 Attributes into the model and then based on the learning model will
 output 1/0 if he/she has a disease or not.
+
+WORKING OF KNN:
+can be explained on the basis of the below algorithm:
+
+Step-1: Select the K number of the neighbors
+Step-2: Calculate the Euclidean distance of K number of neighbors
+Step-3: Take the K nearest neighbors as per the calculated Euclidean distance.
+Step-4: Among these k neighbors, count the number of the data points of each label(0/1).
+Step-5: Assign the new data points to that category for which the number of the neighbor is maximum.
+Step-6: Our model is ready.
+
+WORKING OF NAIVE BAYES:
+Bayes' theorem is also known as Bayes' Rule or Bayes' law, which is used to determine the probability of a hypothesis with prior knowledge. It depends on the conditional probability.
+P(a/b) = (p(b/a)p(a))/p(b)
+
+
