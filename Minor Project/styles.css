@@ -41,7 +41,7 @@ h3 {
 }
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -152,7 +152,9 @@ h3 {
   background-color: #FAF3DD;
   color: black;
 }
-
+#testimonials-carousel{
+  background-color: #68B0AB;
+}
 .testimonial-text {
   font-weight: bold;
   font-size: 3rem;
@@ -166,25 +168,26 @@ h3 {
 }
 
 .carousel-item {
-  padding: 8% 8%;
+  padding: 8% 8% 1.5% 8%;
 }
 
 /* press */
 #press {
-  background-color: #FAF3DD;
-  padding-bottom: 3%;
+  background-color:#68B0AB;
+  padding-bottom: auto;
 }
 
 .press-logo {
-  width: 270px;
-  height: 270px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  margin: 20px 20px 50px;
+  margin: 20px;
 }
 
 /* pricing */
 #pricing {
   padding: 100px;
+  background-color: #FAF3DD;
 }
 
 .price-text {
@@ -207,10 +210,23 @@ h3 {
 }
 
 /* Footer */
-#footer {
-  padding: 0;
+
+#entries{
+ 
+  color: rgb(20, 12, 12);
+  padding: 18%;
+  border: 10px solid #68B0AB;
+}
+a:link {
+  color:#FAF3DD;
+  background-color: transparent;
+  text-decoration: none;
 }
 
+.entryB{
+  margin:3%;
+  color: #FAF3DD;
+}
 .social-icon {
   margin: 20px 10px;
 }
@@ -227,7 +243,7 @@ h3 {
 }
 
 .copyright{
-  padding: 20px 0px;
+  
   font-weight: lighter;
   color: black;
   font-size: 0.75em;
