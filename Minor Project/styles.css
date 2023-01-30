@@ -214,9 +214,16 @@ h3 {
 #entries{
 
   color: rgb(20, 12, 12);
-  padding: 18%;
+  padding: 8%;
   border: 10px solid #68B0AB;
   background-color: #FAF3DD;
+}
+.heart-img{
+  width: 300px;
+  height: 300px;
+}
+.entry-h1{
+  margin: 5% 0;
 }
 #button1{
   background-color: #68B0AB;
