@@ -71,7 +71,7 @@ h3 {
   font-size: 15px;
   padding: 0 4px 0;
   background-color: #FAF3DD;
-  
+
 }
 
 .container-fluid {
@@ -106,7 +106,7 @@ h3 {
   width: 30%;
   float: left;
   margin-right: 100px;
-  
+
 }
 .second-img{
   width: 25%;
@@ -212,10 +212,14 @@ h3 {
 /* Footer */
 
 #entries{
- 
+
   color: rgb(20, 12, 12);
   padding: 18%;
   border: 10px solid #68B0AB;
+  background-color: #FAF3DD;
+}
+#button1{
+  background-color: #68B0AB;
 }
 a:link {
   color:#FAF3DD;
@@ -243,9 +247,8 @@ a:link {
 }
 
 .copyright{
-  
+
   font-weight: lighter;
   color: black;
   font-size: 0.75em;
 }
-
