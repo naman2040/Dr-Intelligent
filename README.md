@@ -3,25 +3,22 @@ Dr Intelligent, AI Doctor
 
 Here We Are creating an Artificial Intelligent Doctor that will use Machine Learning Algorithms to Predict
 if a Person has a Heart Disease or not.
+We have created our intire Website containing landing, uploading and result page, using Django, HTML, CSS, Jinja and Python.
 
-We have created intire Website containing landing, uploading and result page, using Django, HTML, CSS, Jinja and Python.
-
+Here we have used PyPDF2 to read and extract values from the PDF of health report of patients.
 Here the patient will upload his/her health report PDF on our website and then we will extract information from the uplaoded PDF and then train machine learning model on the features value, obtained.
 
 For it We will be using 'Classification' ML Algorithms to -
 1. First train the ML model using 80% of data.
 2. Then Test the model on 20% of unseen Test Cases to find Accuracy of model.
-3. Then we will use this model to Make prediction of User Input data.
-4. Based on the Input Model will generate the output 1 if the person has a disease or 0 if person doesn't have a disease.
+3. Then we will use this model to Make prediction of User Input PDF Report.
+4. Based on the Input Model will generate the PROBABILITY with which it believes that the person has a disease or if person doesn't have a disease.
 
 We are using ML algorithms KNN: K-Nearest Neighbors.
 
 In Supervised learning, our ML Model will train on 
 Labeled data of 303 patients and then will be used to make
 prediction for User INPUT DATA.
-
-User has to Input 11 Attributes into the model and then based on the learning model will
-output 1/0 if he/she has a disease or not.
 
 WORKING OF KNN:
 can be explained on the basis of the below algorithm:
