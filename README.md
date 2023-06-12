@@ -14,7 +14,7 @@ For it We will be using 'Classification' ML Algorithms to -
 3. Then we will use this model to Make prediction of User Input data.
 4. Based on the Input Model will generate the output 1 if the person has a disease or 0 if person doesn't have a disease.
 
-We are using 2 Famous ML algorithms KNN: K-Nearest Neighbors.
+We are using ML algorithms KNN: K-Nearest Neighbors.
 
 In Supervised learning, our ML Model will train on 
 Labeled data of 303 patients and then will be used to make
